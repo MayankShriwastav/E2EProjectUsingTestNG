@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+
+<listeners>
+<listener class-name="learning.UdemyE2EProject.Listeners"></listener>
+</listeners>
+
+  <test name="RegisterPage">
+    <classes>
+      <class name="learning.UdemyE2EProject.RegisterPage"/>
+     </classes>
+   </test>
+     
+  <test name="PracticePage">
+    <classes>
+      <class name="learning.UdemyE2EProject.PracticePage"/>
+     </classes>
+   </test>
+   
+    <test name="LoginPage">
+    <classes>
+      <class name="learning.UdemyE2EProject.LoginPage"/>
+     </classes>
+   </test>
+   
+   <test name="HomePage">
+    <classes>
+      <class name="learning.UdemyE2EProject.HomePage"/>
+     </classes>
+   </test>
+
+</suite> <!-- Suite -->
